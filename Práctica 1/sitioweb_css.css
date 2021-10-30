@@ -1,0 +1,188 @@
+/*
+  Práctica 1 - Fichero 'sitioweb_css.css'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+*/
+
+/* General */
+body{
+  background: url("Imagenes/TierraCreciente.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Enlaces */
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+}
+
+
+/* Cabecera */
+header{
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+header img{
+  margin-left: 70px;
+  margin-right: auto;
+  float: left;
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+
+header h1{
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 9%;
+  text-align: center;
+  display: inline-block;
+  font-family: courier;
+  color: blue;
+  font-size: 50px;
+}
+
+header aside{
+  padding-top: 30px;
+  float: right;
+  width: 25%;
+  color: white;
+}
+
+#username{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border: solid white 1px;
+  display: block;
+}
+
+header aside a{
+  margin-left: 35%;
+}
+
+
+/* Barra de navegación */
+nav{
+  text-align: center;
+}
+
+#bn{
+  font-size: 20px;
+}
+
+#bn li{
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: solid white 1px;
+}
+
+#bn li a{
+   padding: 2px 7px 2px 7px;
+   text-decoration: none;
+}
+
+
+/* Contenido del cuerpo de la página */
+section.main{
+  width: 100%;
+  display: inline-block;
+}
+
+/* Imagen */
+#section_img{
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+
+#section_img img{
+  width: 100%;
+  height: 526px;
+}
+
+/* Línea vertical */
+section.vertical-line{
+  width: 5px;
+  height: 525px;
+  border: 1px inset;
+  margin-left: 5px;
+  margin-right: auto;
+  background: url("Imagenes/Universe.jpg");
+  float: left;
+}
+
+/* Texto */
+section h1{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 620px;
+}
+
+/* Productos destacados */
+section.Scroll{
+  width: 50%;
+  height: 425px;
+  margin-left: 100px;
+  float: left;
+  display: inline-block;
+  overflow: auto;
+}
+
+article.Producto{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article.Producto img{
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 70%;
+  width: 20%;
+  float: left;
+  display: block;
+}
+
+#a{
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia;
+  color: white;
+  float: left;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+
+
+/* Pie de página */
+footer{
+  color: white;
+  width: 99%;
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+footer a{
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 10px;
+}

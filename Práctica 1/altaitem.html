@@ -1,0 +1,79 @@
+<!--
+  Práctica 1 - Fichero 'altaitem.html'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+-->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title> altaitem </title>
+
+    <link rel="stylesheet" type="text/css" href="altaitem_css.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1> AD ASTRA </h1> <!-- Título provisional -->
+
+      <img src="Imagenes/Luna.jpeg" alt="Luna"> <!-- Logo provisional -->
+
+      <aside>
+        <p id="username"> Nicolás Copérnico </p>
+
+        <a href="administracion.html" target="_blank"> Administración </a>
+      </aside>
+    </header>
+
+    <hr>
+
+    <section class="main">
+      <h1> Formulario para añadir un producto </h1>
+
+      <form class="info" action="sitioweb.html" method="post">
+        <fieldset>
+          <button type="button" id="img"><i> Añadir imagen </i></button>
+
+          <label for="name"><b> Nombre: </b></label>
+          <input type="text" id="name" placeholder="Nombre" required/> <br>
+
+          <label for="tipo"><b> Tipo: </b></label>
+          <select id="tipo" required>
+            <option value="" selected disabled> Tipo del producto </option>
+            <option value = "1"> Telescopio </option>
+            <option value = "2"> Binocular </option>
+            <option value = "3"> Montura </option>
+            <option value = "4"> Lente </option>
+            <option value = "5"> Cámara </option>
+            <option value = "6"> Accesorio </option>
+            <option value = "7"> Libro </option>
+            <option value = "8"> Láser </option>
+            <option value = "9"> Software </option>
+          </select> <br>
+
+          <label for="Tam"><b> Tamaño: </b></label>
+          <input type="text" id="Tam" placeholder="Tamaño" required/> <br>
+          <label for="Prec"><b> Precio: </b></label>
+          <input type="text" id="Prec" placeholder="Precio en euros" required/> <br>
+          <label for="peso"><b> Peso en SI (Unidad internacional): </b></label>
+          <input type="text" id="peso" placeholder="g, Kg, ..." required/> <br>
+          <label for="fab"><b> Fabricante: </b></label>
+          <input type="text" id="fab" placeholder="Fabricante" required/> <br>
+
+          <h2> Descripción </h2>
+          <textarea name="desc" rows="8" cols="80" placeholder="Descripción del producto." required></textarea> <br>
+
+          <input type="submit" id="terminar" value="Añadir item"/>
+          <input type="reset" id="b2" value="Reiniciar"/>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer> <!-- Contacto y cómo se hizo (PDF de la memoria) -->
+      <a href="contacto.html" target="_blank"> Contacto &nbsp - </a>
+      <a href="como_se_hizo.pdf" target="_blank"> Cómo se hizo </a> <!-- Enlaza al PDF de la memoria y lo abre en otra pestaña -->
+    </footer>
+  </body>
+</html>

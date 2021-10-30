@@ -1,0 +1,182 @@
+/*
+  Práctica 1 - Fichero 'altaitem_css.css'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+*/
+
+/* General */
+body{
+  background: url("Imagenes/TierraCreciente.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Enlaces */
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+}
+
+
+/* Cabecera */
+header{
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+header img{
+  margin-left: 70px;
+  margin-right: auto;
+  float: left;
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+
+header h1{
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 9%;
+  text-align: center;
+  display: inline-block;
+  font-family: courier;
+  color: blue;
+  font-size: 50px;
+}
+
+header aside{
+  padding-top: 30px;
+  float: right;
+  width: 25%;
+  color: white;
+}
+
+#username{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border: solid white 1px;
+  display: block;
+}
+
+header aside a{
+  margin-left: 35%;
+}
+
+
+/* Campos de información del producto */
+section.main{
+  width: 100%;
+  height: 820px;
+  display: inline-block;
+}
+
+section.main h1{
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  display: inline-block;
+  font-family: Georgia;
+  color: blue;
+}
+
+form.info{
+  float: left;
+  height: 400px;
+  width: 100%;
+  margin: 15px 1px 20px 10px;
+}
+
+#img{
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  background: url("Imagenes/Universe.jpg") no-repeat center;
+  float: left;
+  height: 400px;
+  width: 30%;
+  margin-left: 90px;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+
+form.info fieldset{
+  border: none;
+  width: 100%;
+}
+
+form.info input, form.info select{
+  font-family: Georgia;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+form.info label{
+  font-family: Georgia;
+  margin-right: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Área de texto con la descripción del producto */
+h2{
+  font-family: Georgia;
+  text-align: left;
+  color: white;
+  margin-left: 4%;
+  margin-bottom: -1px; /* Ilegalísimo?? */
+}
+
+textarea{
+  display: inline-block;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 90%;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 4%;
+}
+
+/* Botones */
+#terminar, #b2{
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  background: url("Imagenes/Universe.jpg") no-repeat center;
+  width: 150px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: none;
+}
+
+#terminar{
+  margin-left: 35%;
+}
+
+
+/* Pie de página */
+footer{
+  color: white;
+  width: 99%;
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+footer a{
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 10px;
+}

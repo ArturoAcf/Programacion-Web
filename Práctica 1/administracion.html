@@ -1,0 +1,62 @@
+<!--
+  Práctica 1 - Fichero 'administracion.html'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+-->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> administracion </title>
+
+    <link rel="stylesheet" type="text/css" href="administracion_css.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1> AD ASTRA </h1> <!-- Título provisional -->
+
+      <img src="Imagenes/Luna.jpeg" alt="Luna"> <!-- Logo provisional -->
+
+      <aside>
+        <p id="username"> Admin </p>
+
+        <a href="altaitem.html" target="_blank"> Administración </a>
+      </aside>
+    </header>
+
+    <hr>
+
+    <section class="main"> <!-- Section con el contenido principal del cuerpo -->
+      <h1> Seleccione una opción </h1>
+
+      <form class="iniciar_sesion" action="altausuario.html" method="post">
+        <fieldset> <!-- Inicion de sesión / Registro de usuarios -->
+          <input type="submit" id="b1" value="Añadir usuario"/>
+        </fieldset>
+      </form>
+
+      <form class="iniciar_sesion" action="altaitem.html" method="post">
+        <fieldset> <!-- Inicion de sesión / Registro de usuarios -->
+          <input type="submit" id="b1" value="Añadir sección"/>
+        </fieldset>
+      </form>
+
+      <form class="iniciar_sesion" action="altaitem.html" method="post">
+        <fieldset> <!-- Inicion de sesión / Registro de usuarios -->
+          <input type="submit" id="b1" value="Añadir item"/>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+
+    <footer> <!-- Contacto y cómo se hizo (PDF de la memoria) -->
+      <a href="contacto.html" target="_blank"> Contacto &nbsp - </a>
+      <a href="como_se_hizo.pdf" target="_blank"> Cómo se hizo </a> <!-- Enlaza al PDF de la memoria y lo abre en otra pestaña -->
+    </footer>
+  </body>
+</html>

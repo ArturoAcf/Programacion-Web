@@ -1,0 +1,105 @@
+<!--
+  Práctica 1 - Fichero 'item2.html'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+-->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title> item2 </title>
+
+    <link rel="stylesheet" type="text/css" href="item_css.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1> AD ASTRA </h1> <!-- Título provisional -->
+
+      <img src="Imagenes/Luna.jpeg" alt="Luna"> <!-- Logo provisional -->
+
+      <aside>
+        <p id="username"> Albert Einstein </p>
+
+        <a href="administracion.html" target="_blank"> Administración </a>
+      </aside>
+    </header>
+
+    <hr>
+
+    <nav class="BarNav"> <!-- Barra de navegación -->
+      <ul id="bn"> <!-- Secciones de la barra de navegación -->
+        <li> <a href="seccion1-1.html" target="_blank"> Telescopios </li>   <!-- S1 -->
+        <li> <a href="seccion2.html" target="_blank"> Binoculares </li>     <!-- S2 -->
+        <li> <a href="seccion3.html" target="_blank"> Monturas </li>        <!-- S3 -->
+        <li> <a href="seccion1-1.html" target="_blank"> Lentes </li>          <!-- S4, Envía a S1 -->
+        <li> <a href="seccion2.html" target="_blank"> Cámaras </li>         <!-- S5, Envía a S2 -->
+        <li> <a href="seccion3.html" target="_blank"> Accesorios </a> </li> <!-- S6, Envía a S3 -->
+        <li> <a href="seccion1-1.html" target="_blank"> Libros </a> </li>     <!-- S7, Envía a S1 -->
+        <li> <a href="seccion2.html" target="_blank"> Láseres </a> </li>    <!-- S8, Envía a S2 -->
+        <li> <a href="seccion3.html" target="_blank"> Software </a> </li>   <!-- S9, Envía a S3 -->
+        <li> <a href="seccion1-1.html" target="_blank"> Meteoritos </a> </li> <!-- S10, Envía a S1 -->
+        <li> <a href="seccion2.html" target="_blank"> Cursos </a> </li>     <!-- S11, Envía a S2 -->
+      </ul>
+    </nav>
+
+    <hr>
+
+    <section class="main">
+      <h1> Binoculares </h1>
+
+      <hr id="hr">
+
+      <section id="section_img"> <!-- Imagen -->
+        <img src="Imagenes/bn1.png" alt="Binoculares">
+      </section>
+
+      <article class="info">
+        <fieldset>
+          <label for="name"><b> Nombre: </b></label>
+          <input type="text" id="name" value="Binoculares Fujinon LB 15x80 MT-SX" readonly/> <br>
+          <label for="tipo"><b> Tipo de producto: </b></label>
+          <input type="text" id="tipo" value="Binoculares" readonly/> <br>
+          <label for="tam"><b> Tamaño: </b></label>
+          <input type="text" id="tam" value="80mm x 16mm" readonly/> <br>
+          <label for="prec"><b> Precio: </b></label>
+          <input type="text" id="prec" value="3725.00€" readonly/> <br>
+          <label for="peso"><b> Peso en SI (Unidad internacional): </b></label>
+          <input type="text" id="peso" value="7.06 kg" readonly/> <br>
+          <label for="fab"><b> Fabricante: </b></label>
+          <input type="text" id="fab" value="Fujinon" readonly/>
+        </fieldset>
+      </article>
+
+      <section class="desc">
+        <h2> Descripción </h2>
+
+        <textarea name="desc" rows="8" cols="80" readonly>Binoculares Fujinon LB 15x80 MT-SX:
+The superior nighttime light gathering power of LB binoculars makes them the favorite of many astronomers for comet watching. EBC-coated optics and high-resolution lenses provide clear and sharp images without distortion or blurring from the center to the edges.
+
+Features LB-Series:
+Maximum image brightness due to 150 mm aperture and Electron Beam Coated optics
+Three-dimensional viewing impression due to inter-objective spacing
+Optimised baffles for increased contrast
+Rigid construction: housing completely waterproof, weatherproof and corrosion-resistant
+Up to 40 x magnification for high resolution at long distances
+Also available with 45° inclined viewing for more comfortable observation (EM version only)
+Optional mount and tripod available </textarea>
+      </section>
+
+      <section class="prev-post">
+        <a href="item2.html" id="ant"> Anterior </a>
+        <a href="item2.html" id="sig"> Siguiente </a>
+      </section>
+    </section>
+
+    <hr>
+
+    <footer> <!-- Contacto y cómo se hizo (PDF de la memoria) -->
+      <a href="contacto.html" target="_blank"> Contacto &nbsp - </a>
+      <a href="como_se_hizo.pdf" target="_blank"> Cómo se hizo </a> <!-- Enlaza al PDF de la memoria y lo abre en otra pestaña -->
+    </footer>
+  </body>
+</html>

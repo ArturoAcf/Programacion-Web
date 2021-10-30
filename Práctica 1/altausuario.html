@@ -1,0 +1,93 @@
+<!--
+  Práctica 1 - Fichero 'altausuario.html'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+-->
+
+<!-- TODOS LOS ELEMENTOS VISTOS DE FORMULARIOS -->
+<!-- DISEÑO LIBRE -->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title> altausuario </title>
+
+    <link rel="stylesheet" type="text/css" href="altausuario_css.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1> Formulario para darse de alta </h1>
+    </header>
+
+    <section class="main">
+      <form class="info" action="sitioweb.html" method="post">
+        <fieldset>
+          <label for="name"><b> Nombre: </b></label>
+          <input type="text" id="name" placeholder="Nombre" required/> <br>
+          <label for="surname1"><b> Primer apellido: </b></label>
+          <input type="text" id="surname1" placeholder="Primer apellido" required/> <br>
+          <label for="surname2"><b> Segundo apellido: </b></label>
+          <input type="text" id="surname2" placeholder="Segundo apellido" required/> <br>
+          <label for="date"><b> Fecha de nacimiento: </b></label>
+          <input type="text" id="date" placeholder="dd/mm/aaaa" required/> <br>
+          <label for="nac"><b> Nacionalidad: </b></label>
+          <input type="text" id="nac" placeholder="País" required/> <br>
+
+          <label for="for"><b> Nivel de formción: </b></label>
+          <select id="for" required>
+            <option value="" selected disabled> Nivel de formación </option>
+            <option value = "1"> Educación secundaria obligatoria (ESO) </option>
+            <option value = "2"> Bachillerato </option>
+            <option value = "3"> Grado universitario </option>
+            <option value = "4"> Formación profesional (FP) </option>
+            <option value = "5"> Otro </option>
+          </select> <br>
+
+          <label for="adc"><b> Área de conocimiento: </b></label>
+          <input type="text" id="adc" list="ac">
+          <datalist id="ac" required>
+            <option value="Ingeniería Informática">
+            <option value="Ingeniería de Telecomunicaciones">
+            <option value="Ingeniería Mecánica">
+            <option value="Ingeniería Electrónica">
+            <option value="Biología">
+            <option value="Geología">
+            <option value="Química">
+            <option value="Física">
+            <option value="Matemáticas">
+          </datalist> <br>
+
+          <!-- En un futuro se comprobará si son la misma -->
+          <label for="psw"><b> Contraseña: </b></label>
+          <input type="password" id="psw" placeholder="Caracteres alfanuméricos" required/>
+          <label for="psw_c"><b> Contraseña: </b></label>
+          <input type="password" id="psw_c" placeholder="Repetir contraseña" required/> <br>
+
+          <label><b> Género: </b></label> <br>
+          <input type="radio" id="radio" name="gen" value="m">
+          <label for="m" id="g"> Masculino </label>
+          <input type="radio" name="gen" value="f">
+          <label for="f" id="g"> Femenino </label>
+          <input type="radio" name="gen" value="other">
+          <label for="other" id="g"> Otro </label> <br>
+
+          <label for="checkTerms"><b> Aceptar términos de uso: </b></label>
+          <input type="checkbox" id="checkTerms" required/> <br>
+
+          <input type="submit" id="b1" value="Enviar"/>
+          <input type="reset" id="b2" value="Reiniciar"/>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+
+    <footer> <!-- Contacto y cómo se hizo (PDF de la memoria) -->
+      <a href="contacto.html" target="_blank"> Contacto &nbsp - </a>
+      <a href="como_se_hizo.pdf" target="_blank"> Cómo se hizo </a> <!-- Enlaza al PDF de la memoria y lo abre en otra pestaña -->
+    </footer>
+  </body>
+</html>

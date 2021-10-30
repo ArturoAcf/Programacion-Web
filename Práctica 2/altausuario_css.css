@@ -1,0 +1,107 @@
+/*
+  Práctica 2 - Fichero 'altausuario_css.css'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+*/
+
+/* General */
+body{
+  background: url("Imagenes/TierraCreciente.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Enlaces */
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+}
+
+
+/* Cabecera */
+header h1{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-family: Georgia;
+  color: blue;
+}
+
+
+/* Contenido del cuerpo de la página */
+/* Campos de información del usuario */
+form.info{
+  margin-top: 50px;
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.info fieldset{
+  border: none;
+}
+
+form.info input, form.info select{
+  font-family: Georgia;
+  margin-bottom: 40px;
+}
+form.info label{
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  margin-left: 160px;
+}
+
+#g{
+  margin-left: 1px;
+}
+#radio{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+#b1, #b2{
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  background: url("Imagenes/Universe.jpg") no-repeat center;
+  width: 20%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+#b1{
+  margin-left: 180px;
+}
+#b2{
+  margin-left: 20px;
+}
+
+
+/* Pie de página */
+footer{
+  color: white;
+  width: 99%;
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+footer a{
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 10px;
+}

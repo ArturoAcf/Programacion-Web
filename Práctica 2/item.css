@@ -1,0 +1,226 @@
+/*
+  Práctica 2 - Fichero 'item_css.css'
+  Realizado por: Arturo Alonso Carbonero
+  DNI: 75936665-A
+  Grupo: 3ºA - A1
+*/
+
+/* General */
+body{
+  background: url("Imagenes/TierraCreciente.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Enlaces */
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+}
+
+
+/* Cabecera */
+header{
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+header img{
+  margin-left: 70px;
+  margin-right: auto;
+  float: left;
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+
+header h1{
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 9%;
+  text-align: center;
+  display: inline-block;
+  font-family: courier;
+  color: blue;
+  font-size: 50px;
+}
+
+header aside{
+  padding-top: 30px;
+  float: right;
+  width: 25%;
+  color: white;
+}
+
+#username{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border: solid white 1px;
+  display: block;
+}
+
+header aside a{
+  margin-left: 35%;
+}
+
+#u{
+  margin-left: 130px;
+}
+
+
+/* Barra de navegación */
+nav{
+  text-align: center;
+}
+
+#bn{
+  font-size: 20px;
+}
+
+#bn li{
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: solid white 1px;
+  float: left;
+}
+
+#bn li a{
+   padding: 2px 7px 2px 7px;
+   text-decoration: none;
+}
+
+
+/* Contenido del cuerpo de la página */
+section.main{
+  width: 100%;
+  display: inline-block;
+}
+
+section h1{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Georgia;
+  color: white;
+  font-style: italic;
+}
+
+#hr{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+/* Imagen */
+#section_img{
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-left: 90px;
+}
+
+#section_img img{
+  width: 100%;
+  height: 400px;
+}
+
+/* Campos de información del producto */
+article.info{
+  float: right;
+  height: 400px;
+  width: 40%;
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+article.info fieldset{
+  border: none;
+}
+
+article.info input{
+  font-family: Georgia;
+  margin-bottom: 40px;
+  width: 270px;
+}
+article.info label{
+  font-family: Georgia;
+  margin-right: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Área de texto con la descripción del producto */
+section.desc{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+section.desc h2{
+  font-family: Georgia;
+  text-align: left;
+  color: white;
+  margin-left: 5%;
+  margin-bottom: -1px; /* Ilegalísimo?? */
+}
+
+section.desc textarea{
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 90%;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* Enlaces a otros productos */
+section.prev-post{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  width: 95%;
+}
+
+#ant{
+  float: left;
+  font-size: 25px;
+  margin-left: 65px;
+}
+
+#sig{
+  float: right;
+  font-size: 25px;
+}
+
+#sig:visited, #ant:visited{
+  color: lightgrey;
+}
+
+
+/* Pie de página */
+footer{
+  color: white;
+  width: 99%;
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+footer a{
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 10px;
+}
