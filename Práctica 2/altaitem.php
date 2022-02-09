@@ -1,7 +1,6 @@
 <!--
   Práctica 2 - Fichero 'altaitem.php'
   Realizado por: Arturo Alonso Carbonero
-  DNI: 75936665-A
   Grupo: 3ºA - A1
 -->
 
@@ -73,7 +72,7 @@
       <form class="info" name="altaitem" action="procesar_altaitem.php" onsubmit="return validarFormulario()" method="post">
         <fieldset>
           <button type="button" id="img"><i> Añadir imagen </i></button>
-          
+
           <!-- <img alt="Telescopio" id="img"><br/>
           <input id="inputFile1" type="file">
 

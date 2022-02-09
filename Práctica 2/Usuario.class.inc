@@ -1,7 +1,6 @@
 <!--
   Práctica 2 - Fichero 'Usuario.class.inc'
   Realizado por: Arturo Alonso Carbonero
-  DNI: 75936665-A
   Grupo: 3ºA - A1
 -->
 
